@@ -17,16 +17,16 @@
 -(instancetype)initWithTouchView:(UIView *)touchView
 {
     self = [super initWithTouchView:touchView];
-    
+
     paint = [[Paint alloc] init];
-    
-    [self setToolColor:[UIColor blackColor]];
-    [self setToolThickness:5];
-    
+
+    [self setToolColor:[UIColor colorWithRed:0.95 green:0.11 blue:0.11 alpha:1.0]];
+    [self setToolThickness:3];
+
     [self.path setLineCapStyle:kCGLineCapRound];
     [self.path setLineJoinStyle:kCGLineJoinRound];
-    
-    
+
+
     return self;
 }
 
