@@ -13,7 +13,7 @@ import com.sketchView.utils.ToolUtils;
 public class PenSketchTool extends PathTrackingSketchTool implements ToolThickness, ToolColor {
 
     private static final float DEFAULT_THICKNESS = 5;
-    private static final int DEFAULT_COLOR = Color.BLACK;
+    private static final int DEFAULT_COLOR = Color.RED;
 
     private float toolThickness;
     private int toolColor;
